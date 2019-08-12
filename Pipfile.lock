@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "79d8589980e620649f138056d02341e5e62f47b6622d346cc58661b0c00f05a9"
+            "sha256": "7d307567e9981962e22fec0b19cb40c57d577bf7b1bd3c7bd1a4779bc6a875fb"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,21 @@
         ]
     },
     "default": {
+        "astor": {
+            "hashes": [
+                "sha256:0e41295809baf43ae8303350e031aff81ae52189b6f881f36d623fa8b2f1960e",
+                "sha256:37a6eed8b371f1228db08234ed7f6cfdc7817a3ed3824797e20cbb11dc2a7862"
+            ],
+            "index": "pypi",
+            "version": "==0.8.0"
+        },
+        "codegen": {
+            "hashes": [
+                "sha256:d14caccc4175903d79bc5ed2890d140163281b1cdff79f3657e963369e79a6ee"
+            ],
+            "index": "pypi",
+            "version": "==1.0"
+        },
         "django": {
             "hashes": [
                 "sha256:16a5d54411599780ac9dfe3b9b38f90f785c51259a584e0b24b6f14a7f69aae8",
@@ -37,6 +52,13 @@
                 "sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"
             ],
             "version": "==0.3.0"
+        },
+        "unparse": {
+            "hashes": [
+                "sha256:54e8aeebc180340cddfa248d027de09750916dcde856393370c449e8717818a9"
+            ],
+            "index": "pypi",
+            "version": "==0.2.0"
         }
     },
     "develop": {}

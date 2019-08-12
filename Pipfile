@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 django = "==2.2.4"
+codegen = "*"
+unparse = "*"
+astor = "*"
 
 [requires]
 python_version = "3.7"
