@@ -1,0 +1,96 @@
+[
+    {
+        "app_name": "second",
+        "models": [
+            {
+                "name": "SecondHello",
+                "admin": false,
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "CharField",
+                        "attr": {
+                            "max_length": 100
+                        }
+                    },
+                    {
+                        "name": "sex",
+                        "type": "CharField",
+                        "attr": {
+                            "max_length": 20
+                        }
+                    },
+                    {
+                        "name": "age",
+                        "type": "PositiveSmallIntegerField"
+                    }
+                ]
+            },
+            {
+                "name": "SecondHi",
+                "admin": false,
+                "fields": [
+                    {
+                        "name": "hello",
+                        "type": "ForeignKey",
+                        "relationship": "SecondHello",
+                        "attr": {
+                            "on_delete": "models.CASCADE"
+                        }
+                    },
+                    {
+                        "name": "address",
+                        "type": "CharField",
+                        "attr": {
+                            "max_length": 255,
+                            "blank": null
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "app_name": "first",
+        "models": [
+            {
+                "name": "Hello",
+                "admin": true,
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "CharField",
+                        "attr": {
+                            "max_length": 100
+                        }
+                    },
+                    {
+                        "name": "age",
+                        "type": "PositiveSmallIntegerField"
+                    }
+                ]
+            },
+            {
+                "name": "Hi",
+                "admin": false,
+                "fields": [
+                    {
+                        "name": "hello",
+                        "type": "ForeignKey",
+                        "relationship": "Hello",
+                        "attr": {
+                            "on_delete": "models.CASCADE"
+                        }
+                    },
+                    {
+                        "name": "address",
+                        "type": "CharField",
+                        "attr": {
+                            "max_length": 255
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
