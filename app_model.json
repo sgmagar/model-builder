@@ -28,7 +28,7 @@
             },
             {
                 "name": "SecondHi",
-                "admin": false,
+                "admin": true,
                 "fields": [
                     {
                         "name": "hello",
