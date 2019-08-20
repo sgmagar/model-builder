@@ -9,4 +9,4 @@ class SecondHello(models.Model):
 
 class SecondHi(models.Model):
     hello = models.ForeignKey(SecondHello, on_delete=models.CASCADE)
-    address = models.CharField(max_length=255, blank=True)
+    address = models.CharField(max_length=255, blank=None)
