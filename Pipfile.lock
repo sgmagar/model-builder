@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7d307567e9981962e22fec0b19cb40c57d577bf7b1bd3c7bd1a4779bc6a875fb"
+            "sha256": "244ee4720fcd91a6d67a56a0b780b02fe4b4b88a9e118146076bc615da04bc62"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -39,6 +39,28 @@
             "index": "pypi",
             "version": "==2.2.4"
         },
+        "libcst": {
+            "hashes": [
+                "sha256:997dff0e81b5ce29cdb3f0e3a3a89325a5d432b0ffa86be94d542953f456b65d",
+                "sha256:ecb7a93272b48f6a68fa42c6ba38b215f8930652d3067a59ae23daa978014010"
+            ],
+            "index": "pypi",
+            "version": "==0.1.1"
+        },
+        "mypy-extensions": {
+            "hashes": [
+                "sha256:37e0e956f41369209a3d5f34580150bcacfabaa57b33a15c0b25f4b5725e0812",
+                "sha256:b16cabe759f55e3409a7d231ebd2841378fb0c27a5d1994719e340e4f429ac3e"
+            ],
+            "version": "==0.4.1"
+        },
+        "parso": {
+            "hashes": [
+                "sha256:63854233e1fadb5da97f2744b6b24346d2750b85965e7e399bec1620232797dc",
+                "sha256:666b0ee4a7a1220f65d367617f2cd3ffddff3e205f3f16a0284df30e774c2a9c"
+            ],
+            "version": "==0.5.1"
+        },
         "pytz": {
             "hashes": [
                 "sha256:26c0b32e437e54a18161324a2fca3c4b9846b74a8dccddd843113109e1116b32",
@@ -52,6 +74,22 @@
                 "sha256:7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"
             ],
             "version": "==0.3.0"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:2ed632b30bb54fc3941c382decfd0ee4148f5c591651c9272473fea2c6397d95",
+                "sha256:b1edbbf0652660e32ae780ac9433f4231e7339c7f9a8057d0f042fcbcea49b87",
+                "sha256:d8179012ec2c620d3791ca6fe2bf7979d979acdbef1fca0bc56b37411db682ed"
+            ],
+            "version": "==3.7.4"
+        },
+        "typing-inspect": {
+            "hashes": [
+                "sha256:a7cb36c4a47d034766a67ea6467b39bd995cd00db8d4db1aa40001bf2d674a9b",
+                "sha256:cf41eb276cc8955a45e03c15cd1efa6c181a8775a38ff0bfda99d28af97bcda3",
+                "sha256:e319dfa0c9a646614c9b6abab3bdd5f860a98609998d420f33e41a6e01cbbddb"
+            ],
+            "version": "==0.4.0"
         },
         "unparse": {
             "hashes": [

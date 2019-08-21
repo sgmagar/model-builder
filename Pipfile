@@ -10,6 +10,7 @@ django = "==2.2.4"
 codegen = "*"
 unparse = "*"
 astor = "*"
+libcst = "==0.1.1"
 
 [requires]
 python_version = "3.7"
