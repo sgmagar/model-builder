@@ -28,7 +28,7 @@
             },
             {
                 "name": "SecondHi",
-                "admin": true,
+                "admin": false,
                 "fields": [
                     {
                         "name": "hello",
@@ -43,7 +43,7 @@
                         "type": "CharField",
                         "attr": {
                             "max_length": 255,
-                            "blank": null
+                            "blank": true
                         }
                     }
                 ]
