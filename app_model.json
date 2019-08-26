@@ -5,6 +5,7 @@
             {
                 "name": "SecondHello",
                 "admin": false,
+                "api": false,
                 "fields": [
                     {
                         "name": "name",
@@ -30,6 +31,7 @@
             {
                 "name": "SecondHi",
                 "admin": false,
+                "api": false,
                 "fields": [
                     {
                         "name": "hello",
@@ -57,6 +59,7 @@
             {
                 "name": "Hello",
                 "admin": true,
+                "api": false,
                 "fields": [
                     {
                         "name": "name",
@@ -74,6 +77,7 @@
             {
                 "name": "Hi",
                 "admin": false,
+                "api": false,
                 "fields": [
                     {
                         "name": "hello",
@@ -93,31 +97,5 @@
                 ]
             }
         ]
-    },
-    {
-    "app_name": "projects",
-    "models": [
-        {
-        "name": "CustomText",
-        "admin": true,
-        "fields": [
-          {
-            "name": "title",
-            "type": "CharField",
-            "attr": {
-              "max_length": 150
-            }
-          },
-          {
-            "name": "font",
-            "type": "CharField",
-            "attr": {
-              "max_length": 120,
-              "blank": true
-            }
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]
