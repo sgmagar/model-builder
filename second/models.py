@@ -3,7 +3,7 @@ from django.db import models
 
 class SecondHello(models.Model):
     name = models.CharField(max_length=100)
-    sex = models.CharField(max_length=20)
+    sex = models.CharField(max_length=20, blank=True)
     age = models.PositiveSmallIntegerField()
 
 

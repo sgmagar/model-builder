@@ -17,7 +17,8 @@
                         "name": "sex",
                         "type": "CharField",
                         "attr": {
-                            "max_length": 20
+                            "max_length": 20,
+                            "blank": true
                         }
                     },
                     {
@@ -92,5 +93,31 @@
                 ]
             }
         ]
-    }
+    },
+    {
+    "app_name": "projects",
+    "models": [
+        {
+        "name": "CustomText",
+        "admin": true,
+        "fields": [
+          {
+            "name": "title",
+            "type": "CharField",
+            "attr": {
+              "max_length": 150
+            }
+          },
+          {
+            "name": "font",
+            "type": "CharField",
+            "attr": {
+              "max_length": 120,
+              "blank": true
+            }
+          }
+        ]
+      }
+    ]
+  }
 ]
