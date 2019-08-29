@@ -11,6 +11,7 @@ codegen = "*"
 unparse = "*"
 astor = "*"
 libcst = "==0.1.1"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.7"
