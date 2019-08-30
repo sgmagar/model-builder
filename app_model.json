@@ -5,7 +5,7 @@
             {
                 "name": "SecondHello",
                 "admin": false,
-                "api": false,
+                "api": true,
                 "fields": [
                     {
                         "name": "name",
