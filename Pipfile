@@ -12,6 +12,7 @@ unparse = "*"
 astor = "*"
 libcst = "==0.1.1"
 djangorestframework = "*"
+black = "*"
 
 [requires]
 python_version = "3.7"
